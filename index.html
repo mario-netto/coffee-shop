@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shope</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Coffe Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <form>
+                <input type="search" placeholder="Busque seu produto...">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </header>
+
+    <div class="foto-destaque"></div>
+
+    <main>
+        <section class="sobre container">
+            <img src="./img/sobre.jpg" alt="">
+            <div class="texto-sobre">
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, totam molestias, corrupti deleniti architecto voluptates rem accusantium rerum atque animi cumque quae obcaecati. Laboriosam nulla ullam incidunt, dolore sapiente est.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit earum est aliquid explicabo similique porro, quidem eaque esse reprehenderit minima hic provident vel perspiciatis quis rerum ut odio sed voluptatem.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Produtos</h2>
+            <ul class="produtos">
+                <li>
+                    <img src="img/cafe-caramelo.webp" alt="">
+                    <p>Café Caramelo</p>
+                    <strong>R$25,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="img/cafe-maca.webp" alt="">
+                    <p>Café MAÇÃ E PERA</p>
+                    <strong>R$18,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="img/cafe-laranja.webp" alt="">
+                    <p>Café LARANJA E RAPADURA</p>
+                    <strong>R$18,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="img/cafe-frutado.webp" alt="">
+                    <p>Café FRUTADO</p>
+                    <strong>R$25,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+            </ul>
+        </section>
+        <section class="contato">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <form class="contato">
+                    <div class="form-campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-campo">
+                        <label for="veiculo-interesse">Veículo de interesse:</label>
+                        <input type="text" id="veiculo-interesse" name="veiculo-interesse">
+                    </div>
+                    <div class="form-campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Mario Netto - Curso Desenvolvedor Full Stack Python Ebac</p>
+    </footer>
+</body>
+</html>
