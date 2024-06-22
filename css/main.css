@@ -220,6 +220,10 @@ footer {
     .container {
         width: 90%;
     }
+
+    header form {
+        display: none;
+    }
     
     .sobre {
         display: block;
