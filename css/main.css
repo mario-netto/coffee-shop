@@ -120,7 +120,7 @@ section h2 {
     padding-bottom: 16px;
 }
 
-.produtos {
+#produtos {
     display: grid;
     grid-template-columns: repeat(4, 23%);
     column-gap: 2%;
@@ -128,25 +128,25 @@ section h2 {
     margin-bottom: 32px;
 }
 
-.produtos img {
+#produtos img {
     max-width: 100%;
     margin-top: 16px;
     margin-bottom: 8px;
 }
 
-.produtos strong {
+#produtos strong {
     display: block;
     color: #EC842B;
     margin-top: 5px;
 }
 
-.produtos li {
+#produtos li {
     text-align: center;
     list-style: none;
 }
 
-.produtos button,
-.contato button {
+#produtos button,
+#contato button {
     display: block;
     margin: 8px auto 0 auto;
     background-color: transparent;
@@ -159,16 +159,16 @@ section h2 {
     padding: 8px 0;
 }
 
-.produtos button:hover {
+#produtos button:hover {
     background-color: #F14178;
     color: #fff;
 }
 
-.contato {
+.contatos {
 margin: 32px auto 0 auto;
 }
 
-.contato h2 {
+#contato h2 {
     text-align: center;
     margin-top: 62px;
 }
@@ -202,7 +202,7 @@ form button {
     max-width: 120px;
 }
 
-.contato form button:hover {
+#contato form button:hover {
     background-color: #F14178;
     color: #fff;
 }
@@ -243,12 +243,12 @@ footer {
         border-bottom-right-radius: 8px;
     }
 
-    .produtos {
+    #produtos {
         grid-template-columns: 50% 50%;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 640px) {
     .container {
         width: 90%;
     }
@@ -304,7 +304,7 @@ footer {
         border-bottom-right-radius: 8px;
     }
 
-    .produtos {
+    #produtos {
         display: block;
         grid-template-columns: 90%;
         margin: 0 auto;
